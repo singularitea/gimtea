@@ -21,5 +21,5 @@ class InstrumentReading(models.Model):
     read_date = models.DateTimeField()
     reading = models.DecimalField(max_digits=14, decimal_places=4)
     def __str__(self):
-        return "{} {} {}".format(self.instrument_id,self.read_date,self.reading)
-        
+        return "{} - {} - {}".format(self.instrument_id,self.read_date,self.reading)
+        #return str(self.instrument_id)
