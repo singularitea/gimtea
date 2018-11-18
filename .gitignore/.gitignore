@@ -1,1 +1,15 @@
 /gimtea/local_settings.py
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
