@@ -1,4 +1,4 @@
-# gimtea
+# gimtea - map branch
 
 install PostgreSQL
 
@@ -9,17 +9,17 @@ login to PostgreSQL client
 	$ sudo -u postgres psql
 
    	 postgresql=# CREATE DATABASE liveedu;
-	
+
    	 postgresql=#  CREATE USER root WITH PASSWORD 'Thisisit2002';
-	
+
   	  postgresql=#  ALTER ROLE root SET client_encoding TO 'utf8';
-	
+
  	   postgresql=#  ALTER ROLE root SET default_transaction_isolation TO 'read committed';
-	
+
    	 postgresql=#  ALTER ROLE root SET timezone TO 'UTC';
-	
+
   	  postgresql=# \q
-	
+
 
 
 create virtual environment and activate
@@ -82,6 +82,3 @@ Test server
 
 
 127.0.0.1:8000/admin
-
-
-
